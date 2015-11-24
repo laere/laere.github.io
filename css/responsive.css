@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+
+	.hobby-pic {
+	max-width: 100%;
+	width: 300px;
+	margin: 1.5% auto;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.hobby-pic {
+	width: 50%;
+	height: 50%;
+	margin: 2.5% auto;
+	}
+	#gallery li:nth-child(4n) {
+		clear: right;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	p {
+		font-size: 0.85em;
+		line-height: 1.2;
+	}
+	
+	
+}
+
