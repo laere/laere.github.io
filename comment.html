@@ -6,6 +6,7 @@
 		<title>Zack Bostian | Front-end Developer</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/backupcss.css">
+		<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 	<body>
@@ -18,18 +19,30 @@
 				<ul>
 					<a href="home.html"><li>Portfolio</li></a>
 					<a href="about.html"><li>About Me</li></a>
-					<a href="learning.html" class="selected"><li>Learning</li></a>
+					<a href="learning.html"><li>Learning</li></a>
 					<a href="hobbies.html"><li>Hobbies</li></a>
 					<a href="contact.html"><li>Contact</li></a>
-					<a href="comment.html"><li>Comment</li></a>
+					<a href="comment.html" class="selected"><li>Comment</li></a>
 				</ul>
 			</nav>
 		</header>
-		<div id="wrapper">
-			<section>
-					
-			</section>
-		</div>
+		<form action="home.html" method="post">
+				<fieldset>
+					<legend><span class="number">1</span> Your info:</legend>
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="user_name">
+						<br>
+						<label for="mail">E-mail:</label>
+						<input type="email" id="mail" name="user_email">
+				</fieldset>
+
+				<fieldset>
+					<legend><span class="number">2</span> Help me make improvements!</legend>
+						<label for="comment">Comment here:</label><br>
+						<textarea rows="7" cols="35" id="comment" name="user_comment"></textarea><br>
+						<input type="submit" value="Submit" id="button">
+				</fieldset>
+		</form>
 		<footer>
 			<a href="https://twitter.com/laereZB"><img src="img/twitter-icon.jpg" class="twitter"></a><p>&copy; Zack Bostian</p>
 		</footer>
