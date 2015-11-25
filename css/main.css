@@ -179,7 +179,8 @@ select {
 	background-color: #e8eeef;
 	height: auto;
 	margin-bottom: 20px;
-	border: 2px solid black;
+	border: none;
+	border-bottom: 2px solid #C0C0C0;
 
 }
 
