@@ -106,8 +106,14 @@ footer {
 .twitter {
 	width: 30px;
 	height: 30px;
-	margin: 0 0 0 0;
+	margin: 0;
 
+}
+
+.linkedin {
+	width: 30px;
+	height 40px;
+}
 }
 /***************************************
 ABOUT ME 
