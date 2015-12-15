@@ -106,13 +106,8 @@ footer {
 .twitter {
 	width: 30px;
 	height: 30px;
-	margin: 0;
+	margin: 0 0 0 0;
 
-}
-
-.linkedin {
-	width: 35px;
-	height: 30px;
 }
 /***************************************
 ABOUT ME 
@@ -121,18 +116,18 @@ ABOUT ME
 .picture {
 	max-width: 250px;
 	display: block;
-	border-radius: 50%;
-	border: 2px solid black;
+	border-radius: 75%;
+	border: 2px solid #222;
 	margin: 0 auto 60px;
 }
 
 /***************************************
 FORM
 ***************************************/
-
 .container {
 	max-width: 500px;
 	margin: auto;
+
 }
 
 form {
@@ -153,7 +148,6 @@ form {
 	border-left: 3px solid #116611;
 	border-right: 3px solid #116611;
 	border-radius: 10px;
-	cursor: pointer;
 
 }
 
@@ -205,14 +199,32 @@ legend {
 }
 
 /***************************************
-CONTACT
+PORTFOLIO IMAGES
 ***************************************/
-.info li {
-	list-style; none;
-	padding: 10px 0;
-	margin: 10px 0;
+.port-img {
+
+	margin: 60px auto;
+	display: block;
+	border: 1px solid black;
+	box-shadow: 2px 0 20px 0 black;
+
 
 }
+
+.port-caption {
+	color: black;
+	text-align: center;
+	background-color: rgba(0,0,0, .5);
+	padding: 20px 0;
+	margin-top: -45px;
+	color: white;
+	font-size: 1.75em;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+
+}
+
 
 /***************************************
 HOBBIES
@@ -251,7 +263,7 @@ body {
 
 
 form {
-	background: #fff;
+	background: #ddd;
 
 }
 
