@@ -41,9 +41,15 @@
 	}
 
 	.port-img {
-		width: none;
-		height: none;
-		max-width: 100%;
+		height: 200px;
+		width: 100%;
+		margin: 10px auto;
+
+
+	}
+
+	.col {
+		width: 100%;
 	}
 	
 }
