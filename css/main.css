@@ -150,14 +150,12 @@ PORTFOLIO COLUMNS
 PORTFOLIO IMAGES
 ***************************************/
 .port-img {
-	width:  300px;
+	width: 75%;
 	height: 200px;
 	margin: 10px auto;
 	display: block;
 	border: 1px solid black;
 	box-shadow: 2px 2px 10px 0 black;
-
-
 }
 
 .port-caption {
