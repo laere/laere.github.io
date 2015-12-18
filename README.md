@@ -11,3 +11,5 @@ Fix up with media Queries afterwards <strong>DONE</strong>
 
 
 Fix Hobbies page and contact info!
+
+Add GITHUB to footer!
