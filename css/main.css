@@ -111,7 +111,6 @@ h2 {
 FOOTER
 ***************************************/
 footer {
-
 	padding-top: 20px;
 	text-align: center;
 	clear: both;
@@ -129,6 +128,14 @@ footer {
 	width: 35px;
 	height: 30px;
 }
+
+.github {
+	width: 50px;
+	height: 50px;
+
+}
+
+
 /***************************************
 ABOUT ME 
 ***************************************/
