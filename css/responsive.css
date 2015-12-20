@@ -2,17 +2,18 @@
 
 	.hobby-pic {
 	max-width: 100%;
-	width: 300px;
 	margin: 1.5% auto;
 	}
 }
 
 @media (max-width: 769px) {
 
-.hobby-pic {
-	width: 50%;
-	height: 50%;
-	margin: 2.5% auto;
+	.hobby-pic {
+		margin: 2.5% auto;
+	}
+	.hob-text {
+		font-size: 1em;
+		width: 80%;
 	}
 
 	h1 {
@@ -51,3 +52,8 @@
 	
 }
 
+@media (max-width: 420px) {
+	.hob-text {
+		width: 95%;
+	}
+}
