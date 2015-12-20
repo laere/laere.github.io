@@ -1,59 +1,278 @@
-@media (max-width: 1024px) {
+/***************************************
+FONTS
+***************************************/
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
 
-	.hobby-pic {
-	max-width: 100%;
-	margin: 1.5% auto;
-	}
+/***************************************
+GENERAL
+***************************************/
+body {
+	font-family: 'Gentium Book Basic', sans-serif;
+	line-height: 1.25;
+
 }
 
-@media (max-width: 769px) {
+a {
+	text-decoration: none;
+}
 
-	.hobby-pic {
-		margin: 2.5% auto;
-	}
-	.hob-text {
-		font-size: 1em;
-		width: 80%;
-	}
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
 
-	h1 {
-		font-size: 3em;
-	}
-	h2 {
-		font-size: 1em;
-	}
-	p {
-		font-size: 0.85em;
-		line-height: 1.2;
-	}
-	nav li {
-		display: block;
-	}
+/* Makes images fluid */
+img {
+	max-width: 100%; 
 
-	nav, nav li  {
-		padding: 0;
-		margin: 0;
-	}
-	.one, .two {
-		float: none;
-		clear: both;
-	}
+}
 
-	.port-img {
-		height: 200px;
-		width: 100%;
-		margin: 10px auto;
-	}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
 
-	.col {
-		width: 300px;
-		margin: 0 auto;
-	}
+
+}
+
+/***************************************
+GALLERY
+***************************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	margin: 2.5%;
+	width: 45%;
+
+}
+
+/***************************************
+NAVIGATION
+***************************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	box-shadow: inset 1px 1px 10px #222;
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 10px;
+	text-shadow: 1px 1px 5px #222;
+}
+
+nav a {
+	font-weight: 800;
+	margin: 0 10px;
+}
+
+/***************************************
+HEADER
+***************************************/
+header {
+	width: 100%;
+	margin: 0 0 30px 0;
+	padding: 10px 0 0 0;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+	text-shadow: 1px 1px 5px #222;
+}
+
+h1 {
+	font-size: 1.75em;
+	margin: 15px 0;
+	line-height: 0.9em;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 0.95em;
+	font-weight: normal;
+
+
+}
+
+/***************************************
+FOOTER
+***************************************/
+footer {
+	padding-top: 20px;
+	text-align: center;
+	clear: both;
+	font-size: 0.95em;
+
+}
+
+.twitter {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+
+}
+
+.linkedin {
+	width: 35px;
+	height: 30px;
+}
+
+.github {
+	width: 50px;
+	height: 50px;
+	margin-bottom: -10px;
+	margin-right: 10px;
+
+}
+
+
+/***************************************
+ABOUT ME 
+***************************************/
+
+.picture {
+	max-width: 250px;
+	display: block;
+	border-radius: 75%;
+	border: 2px solid #222;
+	margin: 0 auto 60px;
+}
+
+
+/***************************************
+PORTFOLIO COLUMNS
+***************************************/
+
+.col {
+	width: 49.5%;
+}
+
+.one {
+	float: left;
+}
+
+.two {
+	float:right;
+}
+
+/***************************************
+PORTFOLIO IMAGES
+***************************************/
+.port-img {
+	width: 75%;
+	height: 200px;
+	margin: 10px auto;
+	display: block;
+	border: 1px solid black;
+	box-shadow: 2px 2px 10px 0 black;
+}
+
+.port-caption {
+	color: black;
+	text-align: center;
+	background-color: rgba(0,0,0, .4);
+	width: 300px;
+	padding: 5px 0;
+	margin: 30px auto 0 auto;
+	color: white;
+	font-size: 1.3em;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
 	
 }
 
-@media (max-width: 420px) {
-	.hob-text {
-		width: 95%;
-	}
+
+/***************************************
+HOBBIES
+***************************************/
+.hobby-pic {
+
+	margin: 0 auto 0;
+	display: block;
+	max-width: 100%;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #222;
+	box-shadow: 1px 0 5px black;
 }
+
+.hob-header {
+	text-align: center;
+}
+
+.hob-text {
+	width: 60%;
+	margin: 30px auto;
+	background-color: lightgrey;
+	box-shadow: inset 1px 1px 5px #333;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+/***************************************
+COLORS
+***************************************/
+
+
+h1, h2 {
+	color: #fff;
+}
+
+h3 {
+	margin-top: 0px;
+	color: #000;
+}
+
+header {
+	background: #801515;	
+}
+
+body {
+
+	background: #fff;
+}
+
+
+form {
+	background: #ddd;
+
+}
+
+a {
+	color: #ff4d4d;
+}
+nav {
+	background: #550000;
+
+}
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #AA3939;
+}
+
+
+/*CLEARFIX 
+.group {
+	
+	display; table;
+	clear: both;
+	content: '';
+} */
