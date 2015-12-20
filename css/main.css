@@ -1,8 +1,15 @@
 /***************************************
+FONTS
+***************************************/
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+/***************************************
 GENERAL
 ***************************************/
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Gentium Book Basic', sans-serif;
+	line-height: 1.25;
 
 }
 
@@ -10,8 +17,13 @@ a {
 	text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Makes images fluid */
 img {
-	max-width: 100%; /*makes images fluid*/
+	max-width: 100%; 
 
 }
 
@@ -65,6 +77,7 @@ nav a {
 	font-weight: 800;
 	margin: 0 10px;
 }
+
 /***************************************
 HEADER
 ***************************************/
@@ -81,7 +94,6 @@ header {
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
 	font-size: 1.75em;
 	margin: 15px 0;
 	line-height: 0.9em;
@@ -89,12 +101,12 @@ h1 {
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 0.75em;
+	font-size: 0.95em;
 	font-weight: normal;
 
 
 }
+
 /***************************************
 FOOTER
 ***************************************/
@@ -170,7 +182,6 @@ PORTFOLIO IMAGES
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	
-
 }
 
 
@@ -179,17 +190,35 @@ HOBBIES
 ***************************************/
 .hobby-pic {
 
+	margin: 0 auto 0;
+	display: block;
 	max-width: 100%;
-	width: 400px;
-	margin: 10px auto;
-	border: 5px dashed black;
+	width: 300px;
+	height: 200px;
+	border: 1px solid #222;
 	border-radius: 10px;
+	box-shadow: 1px 0 5px black;
 }
+
+.hob-header {
+	text-align: center;
+}
+
+.hob-text {
+	width: 60%;
+	margin: 30px auto;
+	background-color: lightgrey;
+	box-shadow: inset 1px 1px 5px #333;
+	padding: 10px;
+	border-radius: 5px;
+}
+
 
 
 /***************************************
 COLORS
 ***************************************/
+
 
 h1, h2 {
 	color: #fff;
@@ -230,9 +259,11 @@ nav a.selected, nav a:hover {
 	color: #AA3939;
 }
 
-/*.group {
+
+/*CLEARFIX 
+.group {
 	
 	display; table;
 	clear: both;
 	content: '';
-}*/
+} */
