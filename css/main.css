@@ -112,7 +112,7 @@ FOOTER
 ***************************************/
 footer {
 
-	padding-top: 30px;
+	
 	text-align: center;
 	clear: both;
 	font-size: 0.95em;
@@ -121,7 +121,7 @@ footer {
 .twitter {
 	width: 30px;
 	height: 30px;
-	margin: 0 0 0 0;
+	margin: 0;
 
 }
 
