@@ -9,7 +9,6 @@ Portfolio page needs smaller cards and two columns <strong>DONE</strong>
 
 Fix up with media Queries afterwards <strong>DONE</strong>
 
+Fix Hobbies page and contact info! **DONE**
 
-Fix Hobbies page and contact info!
-
-Add GITHUB to footer!
+Add GITHUB to footer! **DONE**
