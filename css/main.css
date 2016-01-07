@@ -93,6 +93,11 @@ header {
 	text-shadow: 1px 1px 5px #222;
 }
 
+#logo {
+	color: white;
+	font-weight: normal;
+}
+
 h1 {
 	font-size: 1.75em;
 	margin: 15px 0;
